@@ -93,7 +93,7 @@
         <OutArgument x:TypeArguments="s:String[]">[StringArray]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="s:String[]">[{"Vettri", "Velan", "Kumaran", "Kandhan"}]</InArgument>
+        <InArgument x:TypeArguments="s:String[]">[{"Vettri", "Velan", "Kumaran"}]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message - Concatenation of Strings" sap:VirtualizedContainerService.HintSize="434,181" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[StringArray(0) + &quot; &quot; +StringArray(1)]" />
